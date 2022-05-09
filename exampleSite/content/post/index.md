@@ -1,5 +1,5 @@
 ---
-title: "Cayman Typography"
+title: "Cayman"
 date: 2019-03-29
 tags: [markdown, typography]
 ---
