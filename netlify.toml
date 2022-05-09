@@ -1,13 +1,8 @@
 [build]
-  publish = "exampleSite/"
+  publish = "exampleSite"
   command = "hugo"
 
 [build.environment]
   HUGO_VERSION = "0.98.0"
   HUGO_THEME = "cayman-hugo-theme"
   HUGO_BASEURL = "https://socialdata-analysis.netlify.app/"
-
-[[headers]]
-  for = "/*"
-    [headers.values]
-      Access-Control-Allow-Origin = "*"
