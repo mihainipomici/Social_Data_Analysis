@@ -100,12 +100,11 @@ a {
 }
 
 .page-header {
-  //color: $header-heading-color;
+  color: $header-heading-color;
   text-align: center;
-  //background-color: $header-bg-color;
+  background-color: $header-bg-color;
   background-image: url("images/tree_ny.jpg");
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 
   @include large {
